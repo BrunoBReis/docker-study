@@ -35,3 +35,19 @@
 
 + `docker run -it IMAGE COMMAND`
     + iterates with this container but if there is no procecss, kill it.
+
++ `docker run -d IMAGE`
+    + runs an image and stops terminal from freezing it.
+
++ `docker rm [CONTAINERID or NAMES] --force`
+    + stops container and remove it.
+
++ `docker run -d -P IMAGE`
+    + runs an image and stops terminal from freezing it and changes de port to automaic form.
+
++ `docker port [CONTANINERID or NAME]`
+    + changes de port of virtual container to port for os sistem.
+
++ `docker run -d -p 8080:80 IMAGE`
+    + runs an image and stops terminal from freezing it and changes virtual port (80) to a os port (8080) form.
+    
