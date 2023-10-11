@@ -60,5 +60,8 @@
 + `docker history [CONTAINERID]`
     + shows all container layers
 
-+ `docker build -t IMAGENAMES`
-    +  
++ `docker build -t NEW_IMAGE_NAME DIRECTORY_REFERENCE`
+    + must be in folders build. that creates a specif build with Dockerfile specifications. -t -> creates a new name for the build.
+
++ `docker stop $(docker ps -q)`
+    + stops all containers at once 
