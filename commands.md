@@ -50,4 +50,15 @@
 
 + `docker run -d -p 8080:80 IMAGE`
     + runs an image and stops terminal from freezing it and changes virtual port (80) to a os port (8080) form.
-    
+
++ `docker images`
+    + shows all images that have been installed
+
++ `docker inspect [CONTAINEID]`
+    + shows images details 
+
++ `docker history [CONTAINERID]`
+    + shows all container layers
+
++ `docker build -t IMAGENAMES`
+    +  
